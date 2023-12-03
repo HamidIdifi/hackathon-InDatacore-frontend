@@ -1,6 +1,7 @@
 # DashBoard Frontend
 
-This repository contains the frontend codebase for the full-stack application built with Angular (or React) and integrates Angular Materials for UI components. CanvasJS is utilized to generate interactive and visually appealing charts.
+This repository contains the frontend codebase for the full-stack application built with Angular and integrates Angular Materials for UI components.
+CanvasJS is utilized to generate interactive and visually appealing charts.
 
 ## Features
 
@@ -30,7 +31,7 @@ This repository contains the frontend codebase for the full-stack application bu
 Provide instructions on setting up and running the frontend locally.
 
 ## Technologies Used
-- Angular (or React)
+- Angular
 - Angular Materials
 - CanvasJS (or alternative charting library)
 - HTML, CSS, TypeScript
