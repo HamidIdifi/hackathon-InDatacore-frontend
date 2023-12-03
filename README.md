@@ -2,6 +2,12 @@
 
 This repository contains the frontend codebase for the full-stack application built with Angular and integrates Angular Materials for UI components.
 CanvasJS is utilized to generate interactive and visually appealing charts.
+## Technologies Used
+- Angular
+- Angular Materials
+- CanvasJS (or alternative charting library)
+- HTML, CSS, TypeScript
+
 
 ## Features
 
@@ -28,10 +34,8 @@ CanvasJS is utilized to generate interactive and visually appealing charts.
 - Implements CanvasJS to create dynamic and visually appealing charts.
 
 ## How to Run Locally
-Provide instructions on setting up and running the frontend locally.
-
-## Technologies Used
-- Angular
-- Angular Materials
-- CanvasJS (or alternative charting library)
-- HTML, CSS, TypeScript
+1) Install Node.js (which includes npm) on your machine.
+2) git clone https://github.com/HamidIdifi/hackathon-InDatacore-frontend.git
+   cd hackathon-InDatacore-frontend
+3) npm install
+4) ng serve
