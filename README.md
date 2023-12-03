@@ -1,27 +1,36 @@
-# DashDemo
+# DashBoard Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+This repository contains the frontend codebase for the full-stack application built with Angular (or React) and integrates Angular Materials for UI components. CanvasJS is utilized to generate interactive and visually appealing charts.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### User Authentication
+- Implements a sign-in/sign-up system.
 
-## Code scaffolding
+### Dashboard
+- Features a dashboard page with a responsive interfaces.
+- Integrates three types of charts:
+  1. Stacked Bar Chart
+  2. Pie Chart
+  3. Custom Candidate's Choice Chart
+### DataTable Page
+- Displays a datatable with options to display data.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### File Upload Page
+- Allows users to upload files with a simulated transfer in progress.
 
-## Build
+### Minimalist Design
+- Adheres to a minimalist design philosophy for a clean and user-friendly interface.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Third-Party Libraries
+- Utilizes Angular Materials for consistent and customizable UI components.
+- Implements CanvasJS to create dynamic and visually appealing charts.
 
-## Running unit tests
+## How to Run Locally
+Provide instructions on setting up and running the frontend locally.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Technologies Used
+- Angular (or React)
+- Angular Materials
+- CanvasJS (or alternative charting library)
+- HTML, CSS, TypeScript
