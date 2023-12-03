@@ -9,7 +9,7 @@ import {DashboardHomeComponent} from "./dashboard-home/dashboard-home.component"
 import {FileUploaderComponent} from "./shared/file-uploader/file-uploader.component";
 
 const routes: Routes = [
-  {path: 'dashboard', component: DashboardHomeComponent,children:[
+  {path: '', component: DashboardHomeComponent,children:[
       {path:'',component:DashComponent} ,
     {path: 'datatable', component: DataTableComponent},
       {path:'upload-data',component:FileUploaderComponent}

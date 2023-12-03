@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Student} from "../student";
+import {Student} from "../models/student";
 import {MatTableDataSource} from "@angular/material/table";
 import {ApiService} from "../services/api-services/api.service";
 

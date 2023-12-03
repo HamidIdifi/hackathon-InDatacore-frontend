@@ -8,9 +8,9 @@
       <!--<a *ngFor="let item of menuItems" mat-list-item [routerLink]="'/' + item">
         {{ item | titlecase }}
       </a>-->
-      <a mat-list-item (click)="goToOtherComponent('/dashboard')">Dashboard</a>
-      <a mat-list-item (click)="goToOtherComponent('/dashboard/datatable')"> Statistics Data-Table</a>
-      <a mat-list-item (click)="goToOtherComponent('/dashboard/upload-data')">Upload Data</a>
+      <a mat-list-item (click)="goToOtherComponent('')">Dashboard</a>
+      <a mat-list-item (click)="goToOtherComponent('/datatable')"> Statistics Data-Table</a>
+      <a mat-list-item (click)="goToOtherComponent('/upload-data')">Upload Data</a>
       <a mat-list-item (click)="goToOtherComponent('/login')">Log Out</a>
     </mat-nav-list>
   </mat-sidenav>
