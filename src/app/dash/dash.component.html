@@ -1,0 +1,15 @@
+<!--dash.component.html-->
+<div class="grid-container">
+  <h1 class="mat-h1">Dashboard</h1>
+  <mat-grid-list cols="{{ ( cardLayout | async )?.columns }}" rowHeight="200px">
+    <mat-grid-tile [colspan]="( cardLayout | async )?.table!.cols!" [rowspan]="( cardLayout | async )?.table!.rows!">
+      <app-card title="Stacked Bar Chart"><app-stacked-bar-chart-component></app-stacked-bar-chart-component></app-card>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="( cardLayout | async )?.table!.cols!" [rowspan]="( cardLayout | async )?.table!.rows!">
+      <app-card title="Pie Chart"><app-pie-chart></app-pie-chart></app-card>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="( cardLayout | async )?.table!.cols!" [rowspan]="( cardLayout | async )?.table!.rows!">
+      <app-card title="Chart with Date-Time Axis"><app-date-time-axis-graph></app-date-time-axis-graph></app-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

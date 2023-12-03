@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'dash-demo';
+
+
+  constructor(private router: Router) {
+  }
+
+  shouldShowNavBar(): boolean {
+    const excludedRoutes = ['/login'];
+    const currentRoute = this.router.url.split('?')[0];
+    return !excludedRoutes.some(route => currentRoute.startsWith(route));
+  }
+
 }
